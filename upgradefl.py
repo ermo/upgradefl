@@ -256,6 +256,7 @@ class UpgradeSystem(object):
         vpadding = 2
         topVBox = gtk.VBox(homogeneous=False, spacing=10)
         for element in [ self.infoLabelFrame,
+                         self.updateConaryFrame,
                          self.updateConaryButton,
                          self.updateallFrame,
                          self.updateallButton,
